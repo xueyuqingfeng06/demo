@@ -16,7 +16,6 @@ https://cbs.api.qcloud.com/v2/index.php?
 以下请求参数列表为该接口请求参数，其它公共请求参数参见 [公共请求参数](https://cloud.tencent.com/document/product/240/8320)。
 
 |参数名称|		描述 |类型	| 必选|
-|------|-------|-------|------|
 |storageIds	|	将要被挂载的弹性云盘ID。通过DescribeCbsStorages（查询云硬盘信息）接口查询。单次最多可操作10块弹性云盘|Array[String]	|是|
 |uInstanceId	|云服务器实例ID，云盘将被挂载到此云服务器上。通过DescribeInstances（查看实例列表）接口查询|String	|是	|
 
